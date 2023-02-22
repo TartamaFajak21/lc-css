@@ -39,13 +39,14 @@
         margin-top: 10px;
     }
 
-    #selectField {
+    .selectField {
         width: 100%;
         padding: 15px 20px;
         margin-bottom: 30px;
         border-radius: 6px;
         box-sizing: border-box;
         background: rgba(60, 60, 60, 1);
+        border: 3px solid #FFD700;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -87,7 +88,7 @@
     #StreamSBImgList {
         width: 75px;
         position: absolute;
-        top: 20px;
+        top: 11px;
         left: 25px;
     }
 
@@ -110,6 +111,24 @@
 
     .alreadySelected {
         pointer-events: none;
+    }
+
+    .not-selected {
+        border: 3px solid #C0C0C0;
+    }
+
+
+    .selected {
+        border: 3px solid #FFD700;
+    }
+
+    .streamingbtn {
+        width: 350px;
+        position: relative
+    }
+
+    .btn-secondary {
+        background-color: #0a0a23 !important;
     }
 
     #selectText #serverimg {
